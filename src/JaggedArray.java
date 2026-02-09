@@ -11,7 +11,7 @@ public class JaggedArray {
         int[][] arr = new int[n][];
 
         for (int i = 0; i < n; i++) {
-            System.out.print("Enter size of row " + i + ": ");
+            System.out.print("Enter size of row " + i + ":");
             int size = sc.nextInt();
             arr[i] = new int[size];
         }
